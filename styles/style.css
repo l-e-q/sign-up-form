@@ -1,0 +1,12 @@
+body {
+    --background-color: #F2DDEE;
+    --dark-perple-color: #36175e;
+    --light-perple-color: #553285;
+    --light-pink-color: #DBADD2;
+    --pink-color: #C07DB0;
+    font-size: 32px;
+    font-weight: 600;
+    font-family: 'Work Sans';
+    background-color: var(--background-color);
+    color: var(--dark-perple-color);
+}
