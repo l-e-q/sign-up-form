@@ -8,7 +8,42 @@
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    <h1>Github inside image logo and text</h1>
+    <form id="form">
+        <div class="form-input-container">
+            <label for="name-input">*First Name</label>
+            <input maxlength="140" type="text" name="name" id="name-input" class="form-input required" placeholder="James" required>
+        </div>
+
+        <div class="form-input-container">
+            <label for="last-name-input">*Last Name</label>
+            <input maxlength="140" type="text" name="last-name" id="last-name-input required" class="form-input"
+                placeholder="Garcia" required>
+        </div>
+
+        <div class="form-input-container">
+            <label for="email-input">*Email</label>
+            <input type="email" name="email" id="email-input" class="form-input required" placeholder="JamesGarcia@gmail.com"
+                required>
+        </div>
+
+        <div class="form-input-container">
+            <label for="phone-input">*Phone Number</label>
+            <input type="tel" name="phone" id="phone-input" class="form-input required" placeholder="(123) 4567 8901" required>
+        </div>
+
+        <div class="form-input-container">
+            <label for="password-input">*Password</label>
+            <input type="password" name="password" id="password-input" class="form-input required" required>
+        </div>
+
+        <div class="form-input-container">
+            <label for="password-confirm-input">*Confirm Password</label>
+            <input type="password" name="password-confirm" id="password-confirm-input" class="form-input required" required>
+            <span id="invalid-password-span" hidden>Passwords don't match</span>
+        </div>
+        
+        <div><button type="button" id="submit-button">Submit</button></div>
+    </form>
     <script src="./script.js"></script>
 </body>
 </html>
